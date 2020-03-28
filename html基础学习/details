@@ -1,0 +1,37 @@
+utf8mb4   数据库中用到的字符集  比如emijo（表情图标在UTF-8）是没有的
+
+ua = user agent   用户的代理
+
+HTML的标签都是和它的语义有联系的，所以HTML标签语义化（面试也可能会问到）
+
+font awesome 网页中，中的一个相机图标使用了:<i></i>标签
+例如：
+<i class="fa fa-camera-retro fa-lg"</i> fa-lg
+<i class="fa fa-camera-retro fa-2x"</i> fa-2x
+<i class="fa fa-camera-retro fa-3x"</i> fa-3x
+<i class="fa fa-camera-retro fa-4x"</i> fa-4x
+<i class="fa fa-camera-retro fa-5x"</i> fa-5x
+正常来说<i标签是斜体标签，后来因为有了，font awesome 这个图标字体库和CSS框架
+就用<i标签也表示这个，也是来源于Larger Icons，中Icons的i缩写
+
+<div></div>里面可以嵌套<table></table>
+<table></table>不可以嵌套<div></div>
+例如：
+错误：
+<table>
+    <div>
+
+    </div>
+</table>
+正确：
+<div>
+    <table>
+        <tr>
+            <td>
+            </td>
+        </tr>
+    </table>
+    <div>蛇</div>
+    <div>食物</div>
+</div>
+
